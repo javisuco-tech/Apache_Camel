@@ -1,0 +1,8 @@
+services:
+  fdsafdsa:
+    image: fdsafdsa
+    restart: always
+    ports:
+      - "8081:8080"
+    networks:
+      - karavan
